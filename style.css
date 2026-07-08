@@ -1,4 +1,4 @@
-        /* Configurações Gerais */
+        
         * {
             margin: 0;
             padding: 0;
@@ -16,7 +16,7 @@
             padding: 20px;
         }
 
-        /* Cartão de Perfil */
+    
         .profile-card {
             background: #ffffff;
             border-radius: 15px;
@@ -31,8 +31,6 @@
         .profile-card:hover {
             transform: translateY(-5px);
         }
-
-        /* Foto de Perfil */
         .profile-img-container {
             width: 150px;
             height: 150px;
@@ -52,7 +50,6 @@
             object-fit: cover;
         }
 
-        /* Informações de Texto */
         h1 {
             font-size: 1.6rem;
             color: #2c3e50;
@@ -102,8 +99,6 @@
             align-items: center;
             gap: 8px;
         }
-
-        /* Marcadores personalizados para os hobbies */
         .hobbies-list li::before {
             content: "•";
             color: #4A90E2;
